@@ -27,6 +27,6 @@
     
     "extra": {
         "bolt-class": "Bolt\\Extension\\Bveldhuis\\TwigLocalizationFilters\\TwigLocalizationFiltersExtension",
-		"bolt-icon": "bolt-icon.png"
+		"bolt-icon": "icon.jpg"
     }
 }
