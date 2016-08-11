@@ -2,7 +2,6 @@
     "name": "bveldhuis/twiglocalizationfilters",
     "description": "Ported localization filters from the twig-extensions extension to Bolt 3.0.",
     "type": "bolt-extension",
-    "minimum-stability": "dev",
     "require": {
         "bolt/bolt": ">=3.0.0,<4.0.0"
     },
