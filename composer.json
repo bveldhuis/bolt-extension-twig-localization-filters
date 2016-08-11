@@ -1,0 +1,32 @@
+{
+    "name": "bveldhuis/twiglocalizationfilters",
+    "description": "Ported localization filters from the twig-extensions extension to Bolt 3.0.",
+    "type": "bolt-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "bolt/bolt": ">=3.0.0,<4.0.0"
+    },
+    "keywords" : [
+        "Twig",
+		"localization",
+        "localizedcurrency",
+		"localizeddate",
+        "localizednumber"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BVeldhuis"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Bveldhuis\\TwigLocalizationFilters\\" : "src"
+        }
+    },
+    
+    "extra": {
+        "bolt-class": "Bolt\\Extension\\Bveldhuis\\TwigLocalizationFilters\\TwigLocalizationFiltersExtension",
+		"bolt-icon": "bolt-icon.png"
+    }
+}
